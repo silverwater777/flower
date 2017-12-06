@@ -4,12 +4,12 @@ $( document ).ready(function() {
 		$('.header_nav').toggleClass('not-active');
 	});
 	(function($){
-		$(".slogan").mCustomScrollbar();
+		$(".header_nav").mCustomScrollbar();
 	})(jQuery);
-	$(".slogan").mCustomScrollbar({
+	$(".header_nav").mCustomScrollbar({
    		axis:"x" // horizontal scrollbar
 	});
-	$(".slogan").mCustomScrollbar({
+	$(".header_nav").mCustomScrollbar({
    		keyboard:{ scrollType: "stepped" }
 	});
 	

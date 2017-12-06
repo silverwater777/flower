@@ -164,6 +164,9 @@ ul li{
 	width: 20px;
 	height: 20px;
 	border: none;
+	
+}
+#bg{
 	background: url(../images/4.bmp);
 }
 
@@ -317,6 +320,7 @@ img{
 .copyright_sait-name{
 	float: right;
 }
+
 @media (min-width: 549px){
 	.menu-opener span{
 		opacity: .01;
