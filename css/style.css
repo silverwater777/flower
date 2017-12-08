@@ -5,6 +5,7 @@ body{
 	min-height: 100%;
 	max-width: 960px;
 	margin: 0 auto;
+	font-family: Georgia, Times, Times New Roman, serif;
 
 }
 *{
@@ -79,13 +80,13 @@ ul li{
 	position: fixed;
 	width: 100%;
 	left: -100%;
-	top: 130px;
+	top: 30px;
 	bottom: 0;
 	z-index: 5;
 	opacity: .9;
 	background-color: white;
 	text-transform: uppercase;
-	overflow-y: scroll;
+	overflow-y: hidden;
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
 	-ms-transition: all .5s ease;
@@ -95,7 +96,7 @@ ul li{
 
 .not-active{
 	position: fixed;
-	top: 130px;
+	top: 30px;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -117,7 +118,7 @@ ul li{
 .opened span:nth-child(1) {
 	transform: rotate(45deg);
 	position: fixed;
-	top: 105px;
+	top: 15px;
 	right: 20px;
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -128,7 +129,7 @@ ul li{
 .opened span:nth-child(3) {
 	transform: rotate(-45deg); 
 	position: fixed;
-	top: 105px;
+	top: 15px;
 	right: 20px;
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -216,6 +217,7 @@ img{
 	color: #666666;
 	width: 72.14%;
 	float: right;
+	text-align: left;
 }
 .services_title{
 	font-size: 20px;
@@ -229,7 +231,7 @@ img{
 	border-top: 1px solid #e1e1e1;
 }
 .main-col{
-	padding: 30px;
+	padding: 0 30px;
 }
 .main-col-services{
 		padding: 0 30px;
@@ -263,6 +265,7 @@ img{
 	font-size: 16px;
 	color: #894aa3;
 	font-family: Georgia Regular;
+	margin: 20px 0;
 }
 .clearfix{
 	clear: both;
@@ -270,6 +273,9 @@ img{
 .footer_column{
 	color: #666666;
 	margin: 40px 0;
+}
+.footer_column_title{
+	margin-bottom: 25px;
 }
 .f-links a{
 	text-decoration: none;
@@ -301,11 +307,15 @@ img{
 	margin-bottom: 10px;
 	color: #999999;
 }
+.footer{
+	text-align: left;
+}
 .footer input[type="submit"]{
 	width: 80px;
 	height: 30px;
 	color: #874ca0;
 	font-size: 13px;
+	
 }
 .copyright{
 	height: 60px;
@@ -313,6 +323,7 @@ img{
 	font-size: 12px;
 	color: #d0d0d0;
 	padding: 20px 0;
+
 }
 .copyright_domain-name{
 	float: left;

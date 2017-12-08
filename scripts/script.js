@@ -12,6 +12,16 @@ $( document ).ready(function() {
 	$(".header_nav").mCustomScrollbar({
    		keyboard:{ scrollType: "stepped" }
 	});
+
+	(function($){
+		$(".slogan").mCustomScrollbar();
+	})(jQuery);
+	$(".slogan").mCustomScrollbar({
+   		axis:"x" // horizontal scrollbar
+	});
+	$(".slogan").mCustomScrollbar({
+   		keyboard:{ scrollType: "stepped" }
+	});
 	
 	 $(".slider").each(function () { // обрабатываем каждый слайдер
 	  var obj = $(this);
@@ -35,7 +45,8 @@ $( document ).ready(function() {
 	 $(this).addClass("on"); // делаем активным текущий
 	 var obj = $(this).attr("rel"); // узнаем его номер
 	 sliderJS(obj, sl); // слайдим
-	 return false; 
+	 return false;
+	  
 
 });
 	$('html').on('click',function() {
